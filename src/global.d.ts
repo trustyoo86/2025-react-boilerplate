@@ -1,7 +1,8 @@
 /// <reference types="react-scripts" />
 
 declare module '*.svg' {
-  const svgFileContent: string;
+  import React = require('react');
+  const ReactComponent: React.FC<React.SVGProps<SVGSVGElement>> & { default: React.FC<React.SVGProps<SVGSVGElement>> };
   // @ts-ignore
-  export default svgFileContent;
+  export default ReactComponent;
 }
