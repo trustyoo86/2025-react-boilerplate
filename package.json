@@ -9,6 +9,7 @@
     "@formily/react": "^2.3.2",
     "@mui/icons-material": "^6.4.5",
     "@mui/material": "^6.4.5",
+    "@rjsf/core": "^5.24.3",
     "@types/react-router-dom": "^5.3.3",
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
