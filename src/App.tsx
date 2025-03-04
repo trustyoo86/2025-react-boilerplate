@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import './App.css';
 import FormilyPage from './pages/FormilyPage';
 import ZustandPage from './pages/ZustandPage';
+import ReactJsonSchema from './pages/ReactJsonSchema';
+import DynamicFormPage from './pages/DynamicForm';
 
 const App: React.FC = () => {
   return (
@@ -24,8 +26,10 @@ const App: React.FC = () => {
           </a>
         </header>
         <Routes>
+          <Route path="/dynamicform" element={<DynamicFormPage />} />
           <Route path="/formily" element={<FormilyPage />} />
           <Route path="/zustand" element={<ZustandPage />} />
+          <Route path="/jsonschema" element={<ReactJsonSchema />} />
           <Route path="/" element={
             <div>
               <h1>Home Page</h1>
